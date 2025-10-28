@@ -45,6 +45,18 @@ Beyond raw performance, the AI version excels in code quality and maintainabilit
 
 The AI tool demonstrated a perfect understanding of the task's intent, providing an optimal solution instantly. This showcases its primary strength: rapidly generating efficient, idiomatic code for common programming patterns. The manual process required conscious effort to implement a less efficient algorithm. This comparison highlights how AI-powered tools significantly reduce cognitive load and development time for standard tasks, allowing developers to focus on more complex, unique business logic.
 
+### Task 2: 
+## Screenshot of the test login results.
+![Test results](testscriptImg.png)
+
+## Explain how AI improves test coverage compared to manual testing.
+
+Using **Katalon Recorder** demonstrates how AI-enhanced testing tools significantly improve test coverage compared to manual methods. This automation tool allowed rapid creation and execution of both valid and invalid login scenarios in minutes, whereas manual testing would require repetitive, time-consuming validation. 
+
+The tool's **intelligent element locators** provide resilience against UI changes, maintaining test reliability without constant maintenance. Automated testing enables comprehensive coverage of multiple test cases—including edge scenarios and various input combinations—that would be impractical to execute manually due to time constraints. 
+
+This ensures consistent validation with each code change, catching regressions early in the development cycle. The ability to quickly scale test scenarios and run them repeatedly with perfect accuracy frees QA teams to focus on complex exploratory testing, ultimately leading to more robust software quality through broader, more efficient test coverage than manual approaches could achieve.
+
 
 ### Task 3: Predictive Analytics for Resource Allocation
 **Screenshot of performance metrics for Random Forest Model**
