@@ -1,0 +1,47 @@
+# Part 1: Theoretical Analysis
+
+### Q1: AI-Driven Code Generation Tools
+**Time Reduction:**
+- Context-aware autocompletion suggests entire code blocks.
+- Reduces syntax errors and typos.  
+- Faster API/library discovery.  
+
+**Limitations:**
+- May suggest vulnerable or inefficient code.  
+- Lacks understanding of broader architecture.
+---
+
+### Q2: Supervised vs. Unsupervised Learning for Bug Detection
+**Supervised Learning:**
+- Uses labeled datasets (buggy/non-buggy code).  
+- Predicts known bug types.  
+- High accuracy for familiar patterns.  
+- Requires extensive labeled data. 
+
+**Unsupervised Learning:**
+- Finds patterns without labels. 
+- Detects novel/anomalous bugs.  
+- No labeling costs.
+- Higher false positives, harder to interpret.  
+---
+
+### Q3: Why is Bias Mitigation critical in UX Personalization?
+- Prevents discrimination against user groups.   
+- Mitigates business and reputational risks.  
+- Ensures fair content distribution.  
+---
+
+## 2. Case Study Analysis
+### AIOps in Deployment Efficiency
+- **Intelligent Test Selection:** Runs only relevant tests based on code changes, reducing feedback time  
+- **Predictive Rollback:** Monitors metrics to forecast failures and auto-rolls back before outages. 
+
+### Part 2: Practical Implementation
+**Task 1: AI-Powered Code Completion**
+## Analysis
+The AI-suggested code is unequivocally more efficient and superior for production use. Its efficiency stems from using Python's built-in `sorted()` function, which is implemented in C and employs the highly efficient **Timsort** algorithm, with an average time complexity of *O(n log n)*. In contrast, the manual Bubble Sort implementation has a worst-case complexity of *O(n²)*, making it prohibitively slow for large datasets.
+
+Beyond raw performance, the AI version excels in code quality and maintainability. It is concise, readable, and leverages a standard, well-understood Python idiom. The manual implementation, while functionally correct, is verbose, error-prone (as it modifies the list in-place), and serves more as an academic exercise than a practical solution.
+
+The AI tool demonstrated a perfect understanding of the task's intent, providing an optimal solution instantly. This showcases its primary strength: rapidly generating efficient, idiomatic code for common programming patterns. The manual process required conscious effort to implement a less efficient algorithm. This comparison highlights how AI-powered tools significantly reduce cognitive load and development time for standard tasks, allowing developers to focus on more complex, unique business logic.
+
