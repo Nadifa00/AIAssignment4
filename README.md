@@ -45,3 +45,7 @@ Beyond raw performance, the AI version excels in code quality and maintainabilit
 
 The AI tool demonstrated a perfect understanding of the task's intent, providing an optimal solution instantly. This showcases its primary strength: rapidly generating efficient, idiomatic code for common programming patterns. The manual process required conscious effort to implement a less efficient algorithm. This comparison highlights how AI-powered tools significantly reduce cognitive load and development time for standard tasks, allowing developers to focus on more complex, unique business logic.
 
+
+### Task 3: Predictive Analytics for Resource Allocation
+**Screenshot of performance metrics for Random Forest Model**
+![Performance metrics](performance.png)
