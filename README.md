@@ -49,3 +49,22 @@ The AI tool demonstrated a perfect understanding of the task's intent, providing
 ### Task 3: Predictive Analytics for Resource Allocation
 **Screenshot of performance metrics for Random Forest Model**
 ![Performance metrics](performance.png)
+
+# Part 3: Ethical Reflection (10%)
+
+## Potential Biases in the Dataset
+
+### **Representation Bias**
+The model is trained on technical, numerical data. In a real company, issues from non-technical teams (e.g., marketing, design) that report problems qualitatively could be underrepresented. The model might systematically assign them a lower, incorrect priority.
+
+### **Historical Bias**
+If the historical data used for training reflects a bias toward prioritizing issues from certain departments (e.g., sales over HR), the model will learn and amplify this pattern, perpetuating an unfair allocation of resources.
+
+---
+
+## How fairness tools like IBM AI Fairness 360 could address these biases.
+### **Detection**
+Use metrics like **Disparate Impact Ratio** to check if issues from a specific *“reporting team”* are unfairly favored for *“High Priority”* classification.
+
+### **Mitigation**
+Apply algorithms such as **Reweighing**, which assigns higher weight to training examples from underrepresented groups, balancing the dataset so the model learns to make fairer predictions.
